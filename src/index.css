@@ -1,7 +1,0 @@
-@import "tailwindcss";
-
-
-.section-parent {
-    min-height: calc(100dvh - 3rem);
-    /* padding-top: 3rem; */
-}
