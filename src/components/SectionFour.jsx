@@ -47,7 +47,7 @@ function SectionFour() {
             </a>
           </div>
           <h3 className="text-lg">or</h3>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap justify-center gap-4 mx-4">
             {listCard.map((pram) => (
               <ItemCard link={pram.link} logo={pram.logo} nama={pram.nama} />
             ))}
@@ -63,7 +63,7 @@ function ItemCard({ logo, nama, link }) {
   return (
     <>
       <a
-        className="border inline-block border-black rounded p-4 size-20"
+        className="border inline-block border-black rounded p-3 size-20"
         href={link ?? ""}
         target="_blank"
       >

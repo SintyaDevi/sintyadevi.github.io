@@ -1,5 +1,10 @@
 const listPorto = [
   {
+    name: "Design UI/UX",
+    desc: "Prototype Aplikasi - Project UAS",
+    link: "https://www.figma.com/proto/AsXABInCO0EDW2rWu51Gmx/PROJEK-UAS-UI-UX?node-id=11-63&starting-point-node-id=11%3A63&t=4yaTR6tRw4dKWdnn-1",
+  },
+  {
     name: "Video Perkenalan",
     desc: "Video singkat perkenalan diri saya",
     link: "https://drive.google.com/file/d/1mJsALz8h94icSKLQxAOz1xdi0173PI1Y/view?usp=drive_link",
