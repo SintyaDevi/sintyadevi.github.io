@@ -114,7 +114,7 @@ function SectionOne() {
               {/* CTA */}
               <div className="flex flex-wrap gap-4 mt-10">
                 <a
-                  href="https://drive.google.com/file/d/1xJqaopyoQbiivxTpAOjxbuEGZRrjRO9S/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1dwbQkU5F95v_ITYp0ldoUscCXGR_Dx9U/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
