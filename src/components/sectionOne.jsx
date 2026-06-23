@@ -28,7 +28,7 @@ function SectionOne() {
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/20 blur-[120px]" />
 
             <img
-              src="formal-removebg.png"
+              src="formal-removebg-small.png"
               alt="Sintya Devi"
               className="
                 relative
