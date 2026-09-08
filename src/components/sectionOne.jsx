@@ -67,7 +67,7 @@ function SectionOne() {
               <h1 className="mt-8 text-5xl lg:text-7xl font-bold leading-tight text-white">
                 Hi, I'm{" "}
                 <span className="bg-gradient-to-r from-cyan-400 to-violet-500 bg-clip-text text-transparent">
-                  Sintya Devi
+                  Sintya Devi Laksana Putri
                 </span>
               </h1>
 

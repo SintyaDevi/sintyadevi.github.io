@@ -9,7 +9,7 @@ function Navbar() {
             href="#home"
             className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent"
           >
-            Sintya Devi
+            Sintya Devi Laksana Putri
           </a>
 
           {/* Menu */}
