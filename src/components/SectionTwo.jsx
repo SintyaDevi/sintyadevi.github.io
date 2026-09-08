@@ -1,31 +1,38 @@
 const listPorto = [
   {
-    icon: "🎨",
+    icon: "",
     category: "UI/UX Design",
-    name: "Food Ordering App",
-    desc: "Mobile application prototype designed using Figma with a focus on user experience and intuitive navigation.",
-    link: "https://www.figma.com/proto/AsXABInCO0EDW2rWu51Gmx/PROJEK-UAS-UI-UX?node-id=11-63&starting-point-node-id=11%3A63&t=4yaTR6tRw4dKWdnn-1",
+    name: "MyMed Alarm App",
+    desc: "Designed the UI/UX prototype and user flow for the MyMed Alarm health management mobile application in Figma, featuring a medication reminder and health tracking interface.",
+    link: "https://www.figma.com/proto/AsXABInCO0EDW2rWu51Gmx/PROJEK-UAS-UI-UX?node-id=11-92&starting-point-node-id=11%3A63&t=4yaTR6tRw4dKWdnn-1",
   },
   {
-    icon: "🎥",
-    category: "Personal Branding",
-    name: "Introduction Video",
-    desc: "A short introduction video showcasing my background, skills, and interests in technology.",
+    icon: "",
+    category: "UI/UX Design",
+    name: "Car Service Administration System App",
+    desc: "Designed the UI/UX prototype and user flow for the car-service administration system in Figma, prior to frontend development.",
+    link: "https://www.figma.com/proto/2xpMHxDW5DSWKuKOcd1gv5/TA-Sintya?node-id=182-455&p=f&t=P6WeLramG0Eeb0nK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=182%3A455&show-proto-sidebar=1",
+  },
+  {
+    icon: "",
+    category: "Frontend",
+    name: "Car Service Administration System App",
+    desc: "Designed and developed the frontend interface for a car-service administration system as the final capstone project (Tugas Akhir) for the D3 Information Management program.",
     link: "https://drive.google.com/file/d/1mJsALz8h94icSKLQxAOz1xdi0173PI1Y/view?usp=drive_link",
   },
   {
-    icon: "🖼️",
-    category: "Graphic Design",
-    name: "Independence Day Poster",
-    desc: "Creative poster design themed around Indonesia's Independence Day using Canva.",
-    link: "https://www.canva.com/design/DAGwaBqnLns/INxqSK8RDccJS_ynxSS0Qw/edit?utm_content=DAGwaBqnLns&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    icon: "",
+    category: "Website Portofolio",
+    name: "Personal Portfolio Website",
+    desc: "Built and published a personal portfolio website using React.js to showcase projects, skills, and certifications.",
+    link: "https://sintyadevi-portofolio.edgeone.dev/",
   },
   {
-    icon: "💌",
-    category: "Web Design",
-    name: "Online Invitation",
-    desc: "Modern online invitation design created with Canva featuring responsive visual layouts.",
-    link: "https://www.canva.com/design/DAGwaXulYB8/cjnvBevBxtRrsflY-ZjHmg/edit?utm_content=DAGwaXulYB8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    icon: "",
+    category: "Finance App",
+    name: "Personal Finance Application (Development)",
+    desc: "Developed a personal finance tracking application using Next.js as an individual project.",
+    link: "https://github.com/SintyaDevi/Finance-app",
   },
 ];
 
@@ -69,7 +76,7 @@ function SectionTwo() {
           </div>
 
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-white">Creative</h2>
+            <h2 className="text-3xl font-bold text-white">Website</h2>
             <p className="text-slate-400">Portfolio</p>
           </div>
         </div>
