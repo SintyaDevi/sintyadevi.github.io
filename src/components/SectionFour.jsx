@@ -1,3 +1,4 @@
+import React from "react";
 import LinkedIn from "/linkedin.png";
 import Instagram from "/ins.png";
 import GitHub from "/github.png";
@@ -34,7 +35,7 @@ function SectionFour() {
   return (
     <section
       id="contact"
-      className="py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
+      className="py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 overflow-hidden"
     >
       <div className="max-w-6xl mx-auto">
 
@@ -66,7 +67,7 @@ function SectionFour() {
               border-white/10
               bg-white/5
               backdrop-blur-lg
-              p-8
+              p-6 sm:p-8
               text-center
               hover:border-cyan-400/40
               transition-all
@@ -78,15 +79,17 @@ function SectionFour() {
               Email Me
             </h2>
 
-            <p className="text-slate-400 mb-5">
+            <p className="text-slate-400 mb-5 text-sm sm:text-base">
               Feel free to reach out via email.
             </p>
 
+            {/* Perbaikan tombol email agar responsive */}
             <a
               href="mailto:sintyadevilaksanaputri@gmail.com"
               className="
                 inline-block
-                px-6
+                w-full sm:w-auto
+                px-4 sm:px-6
                 py-3
                 rounded-full
                 bg-gradient-to-r
@@ -94,6 +97,8 @@ function SectionFour() {
                 to-purple-600
                 text-white
                 font-medium
+                text-sm sm:text-base
+                break-all sm:break-normal
                 hover:scale-105
                 transition
               "
@@ -109,7 +114,7 @@ function SectionFour() {
             Find Me On
           </h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {listCard.map((item, index) => (
               <ItemCard
                 key={index}
@@ -125,7 +130,7 @@ function SectionFour() {
         {/* Footer */}
         <div className="mt-16 text-center">
           <p className="text-slate-500 text-sm">
-            © 2025 Sintya Devi. Built with React & Tailwind CSS.
+            © 2026 Sintya Devi. Built with React & Tailwind CSS.
           </p>
         </div>
       </div>
@@ -146,7 +151,7 @@ function ItemCard({ logo, nama, username, link }) {
         border-white/10
         bg-white/5
         backdrop-blur-lg
-        p-6
+        p-4 sm:p-6
         text-center
         hover:border-cyan-400/40
         hover:-translate-y-2
@@ -158,24 +163,24 @@ function ItemCard({ logo, nama, username, link }) {
         src={logo}
         alt={nama}
         className="
-          w-14
-          h-14
+          w-10 h-10 sm:w-14 sm:h-14
           mx-auto
-          mb-4
+          mb-3 sm:mb-4
           group-hover:scale-110
           transition
         "
       />
 
-      <h3 className="text-white font-semibold">
+      <h3 className="text-white font-semibold text-sm sm:text-base">
         {nama}
       </h3>
 
-      <p className="text-slate-400 text-sm mt-1">
+      {/* Menambahkan truncate agar teks panjang (seperti username linkedin) tidak merusak grid */}
+      <p className="text-slate-400 text-xs sm:text-sm mt-1 truncate w-full px-1">
         {username}
       </p>
 
-      <div className="mt-4 text-cyan-400 font-medium">
+      <div className="mt-3 sm:mt-4 text-cyan-400 font-medium text-xs sm:text-sm">
         Visit →
       </div>
     </a>
