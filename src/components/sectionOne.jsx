@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
+const CV_LINK = "https://drive.google.com/drive/folders/1D8SpOO8cR5M9s0IVykdVGCZPEUPqDNL1?usp=sharing"
+
 const SectionOne = () => {
   // State untuk melacak posisi mouse agar background interaktif mengikuti kursor
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -143,7 +145,8 @@ const SectionOne = () => {
               Contact Me
             </a>
             <a 
-              href="/CV_Sintya Devi Laksana Putri.pdf" 
+              href={CV_LINK}
+              target='_blank' 
               className="px-5 py-2 sm:px-6 sm:py-2.5 rounded-xl text-[#050816] font-semibold bg-gradient-to-r from-cyan-400 to-violet-500 hover:scale-105 transition-transform animate-pulse text-xs sm:text-base"
             >
               Download CV
