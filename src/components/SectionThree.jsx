@@ -198,7 +198,7 @@ function Certificate() {
       id: 4,
       title: "Certificate of Accomplishment AI",
       issuer: "PT Hactivate Teknologi Indonesia",
-      year: "2024",
+      year: "2026",
       icon: "",
       link: "https://drive.google.com/file/d/1HFVDM9ZYmiTBpXS5mts30hmDFR5OSmAE/view",
     },

@@ -18,14 +18,14 @@ const listPorto = [
     category: "Frontend",
     name: "Car Service Administration System App",
     desc: "Designed and developed the frontend interface for a car-service administration system as the final capstone project (Tugas Akhir) for the D3 Information Management program.",
-    link: "https://drive.google.com/file/d/1mJsALz8h94icSKLQxAOz1xdi0173PI1Y/view?usp=drive_link",
+    link: "https://github.com/SintyaDevi/car-workshop-admin-UI",
   },
   {
     icon: "",
     category: "Website Portofolio",
     name: "Personal Portfolio Website",
     desc: "Built and published a personal portfolio website using React.js to showcase projects, skills, and certifications.",
-    link: "https://sintyadevi-portofolio.edgeone.dev/",
+    link: "https://sintyadevi.github.io/",
   },
   {
     icon: "",
