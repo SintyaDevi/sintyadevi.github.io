@@ -42,5 +42,5 @@ if exist "dist" (
 )
 
 echo "menghapus folder dist..."
-rmdir .\dist /Q /S
+@REM rmdir .\dist /Q /S
 echo "Done."
